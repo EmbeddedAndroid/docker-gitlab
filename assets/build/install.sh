@@ -2,10 +2,10 @@
 set -e
 
 GITLAB_CLONE_URL=https://github.com/EmbeddedAndroid/gitlab-ce.git
-GITLAB_SHELL_URL=https://github.com/EmbeddedAndroid/gitlab-shell/archive/master.tar.gz
-GITLAB_WORKHORSE_URL=https://github.com/EmbeddedAndroid/gitlab-workhorse.git
-GITLAB_PAGES_URL=https://github.com/EmbeddedAndroid/gitlab-pages/archive/master.tar.gz
-GITLAB_GITALY_URL=https://github.com/EmbeddedAndroid/gitaly/archive/master.tar.gz
+GITLAB_SHELL_URL=https://gitlab.com/gitlab-org/gitlab-shell/repository/archive.tar.gz
+GITLAB_WORKHORSE_URL=https://gitlab.com/gitlab-org/gitlab-workhorse.git
+GITLAB_PAGES_URL=https://gitlab.com/gitlab-org/gitlab-pages/repository/archive.tar.gz
+GITLAB_GITALY_URL=https://gitlab.com/gitlab-org/gitaly/repository/archive.tar.gz
 
 GEM_CACHE_DIR="${GITLAB_BUILD_DIR}/cache"
 
